@@ -15,6 +15,6 @@ const playedTime = localStorage.getItem('videoplayer-current-time');
 console.log(playedTime);
 
 const stoppedTime = JSON.parse(playedTime);
-console.log(stoppedTime.seconds);
+// console.log(stoppedTime.seconds);
 
 player.setCurrentTime(stoppedTime.seconds || 0);
